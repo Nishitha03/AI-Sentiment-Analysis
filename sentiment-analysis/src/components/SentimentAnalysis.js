@@ -36,7 +36,7 @@ const SentimentAnalysis = () => {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_DURATION);
 
-      const response = await fetch('http://localhost:8000/analyze', {
+      const response = await fetch('https://ai-powered-sentiment-analysis-gemm.onrender.com/', {
         method: 'POST',
         body: formData,
         signal: controller.signal,
