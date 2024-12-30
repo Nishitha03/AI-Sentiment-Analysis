@@ -1,4 +1,4 @@
-# Sentiment Analysis Dashboard
+# AI Powered Sentiment Analysis 
 
 A full-stack web application that performs sentiment analysis on CSV data, featuring an interactive dashboard with real-time visualizations.
 
@@ -14,7 +14,7 @@ A full-stack web application that performs sentiment analysis on CSV data, featu
 ## Live Demo
 
 Backend: [https://ai-powered-sentiment-analysis-gemm.onrender.com](https://ai-powered-sentiment-analysis-gemm.onrender.com)
-Frontend: [Your frontend URL]
+Frontend: https://ai-sentiment-analysis-2.onrender.com/
 
 ## Tech Stack
 
@@ -158,6 +158,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [your-email@example.com]
+Your Name - nishithaanand2004@gmail.com
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [https://github.com/Nishitha03/AI-Sentiment-Analysis](https://github.com/Nishitha03/AI-Sentiment-Analysis)
