@@ -153,8 +153,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - FastAPI for the backend framework
 
 ## Screenshots
+![senti1](https://github.com/user-attachments/assets/37b9e894-f66a-4efc-a0f5-980714e286ee)
+![senti2](https://github.com/user-attachments/assets/5fa7baaf-d3c6-46b1-9c32-b4bd33c0c382)
+![senti3](https://github.com/user-attachments/assets/3543a10c-91db-4c4d-8e21-b71b1bad1a75)
 
-[Add your application screenshots here]
+
 
 ## Contact
 
