@@ -15,10 +15,10 @@ app = FastAPI()
 # Configure CORS - very important for frontend to work
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins
-    allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods
-    allow_headers=["*"],  # Allows all headers
+    allow_origins=["*"],  # For development. In production, specify your frontend URL
+    allow_credentials=False,
+    allow_methods=["POST", "GET"],
+    allow_headers=["*"],
 )
 
 @app.get("/")

@@ -36,12 +36,14 @@ const SentimentAnalysis = () => {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_DURATION);
 
-      const response = await fetch('https://ai-powered-sentiment-analysis-gemm.onrender.com/', {
+      const response = await fetch('https://ai-powered-sentiment-analysis-gemm.onrender.com/analyze', {
         method: 'POST',
         body: formData,
         signal: controller.signal,
-        credentials: 'omit',
-        mode: 'cors',
+        // Remove credentials and mode since they're causing issues
+        headers: {
+          'Accept': 'application/json',
+        },
       });
 
       clearTimeout(timeoutId);
